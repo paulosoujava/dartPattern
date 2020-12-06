@@ -3,10 +3,12 @@ Aqui você encontrará exemlos de design patterns.
 Exemplo para cada um dos  23 Gang of Four design patterns
 
 # São eles:
+
+
  ## Behavioral Patterns
-    ```
+    
     Os padrões de projeto comportamentais se preocupam com os algoritmos e a atribuição de responsabilidades entre objetos. Os padrões comportamentais não descrevem apenas padrões de objetos ou classes, mas também os padrões de comunicação entre eles. Esses padrões caracterizam fluxos de controle difíceis de seguir em tempo de execução. Eles afastam o foco do fluxo de controle para permitir que você se concentre somente na maneira como os objetos são interconectados.
-    ```
+    
 ## Padrões e intenções    
     Chain of responsibility - evita o acoplamento do remetente de uma solicitação ao seu destinatário, dando a mais de um objeto a chance de tratar a solicitação. Encadeia os objetos receptores e passa a solicitação ao longo da cadeia até que um objeto a trate.
 
@@ -30,11 +32,11 @@ Exemplo para cada um dos  23 Gang of Four design patterns
 
 
 ## Creational
-```
+
 Os padrões de projeto de criação são padrões que abstraem o processo de instanciação de objetos. Eles ajudam a tornar um sistema independente de como seus objetos são representados, criados e compostos. Geralmente, atingem este objetivo delegando tarefas para outros objetos.
 
 Esses padrões dão muita flexibilidade ao sistema, porque encapsulam o conhecimento sobre quais classes concretas são usadas. Além disso, ocultam o modo como as instâncias são criadas e compostas. O foco é eliminar conhecimento do cliente sobre o QUE, COMO e QUANDO está sendo criado e QUEM faz parte do processo de criação.
-```
+
 ## Padrões e intenções
 Abstract Factory - Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas;
 
@@ -48,9 +50,9 @@ Singleton - Garantir que uma classe tenha somente uma instância e fornecer um p
 
 
 # Structural Patterns
-```
+
 Os padrões estruturais se preocupam com a forma como os objetos são compostos para formar estruturas maiores.
-```
+
 ## Padrões e intenções
 
 Adapter - converte a interface de uma classe em outra interface esperada pelos clientes. O Adapter permite que certas classes trabalhem em conjunto, pois de outra forma seria impossível por causa de suas interfaces incompatíveis.
