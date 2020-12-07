@@ -1,6 +1,6 @@
 class Me {
   static final Me _singleton = new Me._internal();
-  static final String _name = "Tyler";
+  static final String _name = "Paulo";
 
   factory Me() {
     return _singleton;
@@ -15,18 +15,19 @@ class Me {
 }
 
 void main() {
-  var tyler = Me();
-  var anotherTyler = Me();
+  var paulo = Me();
+  var anotherPaulo = Me();
 
-  print(tyler);
-  print(anotherTyler);
+  print(paulo);
+  print(anotherPaulo);
 
-  var samenessCheck = identical(tyler, anotherTyler) ? "We are both the same ${Me.name}." : "We are NOT the same. I mean, just look at us.";
+  var samenessCheck = identical(paulo, anotherPaulo) ? "We are both the same ${Me.name}." : "We are NOT the same. I mean, just look at us.";
   print(samenessCheck);
+  print(identical(paulo, anotherPaulo));
 
   /*
-    Hello, my name is Tyler.
-    Hello, my name is Tyler.
-    We are both the same Tyler.
+    Hello, my name is Paulo.
+    Hello, my name is Paulo.
+    We are both the same Paulo.
   */
 }
